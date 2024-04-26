@@ -1,4 +1,4 @@
 import assert from "assert";
-import { add } from "../build/debug.js";
-assert.strictEqual(add(1, 2), 3);
+import { minusOne } from "../build/debug.js";
+assert.strictEqual(minusOne(48), 47);
 console.log("ok");
